@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+node_modules/
 /.pnp
 .pnp.js
 .yarn/install-state.gz
@@ -30,7 +31,19 @@ yarn-error.log*
 
 # vercel
 .vercel
-
+.next/
+/.next
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+/.firebase
+.firebase/
+
+.git/
+firebase-adminsdk.json
+
+
+firebase-debug.log
+firebase-adminsdk.json
+.env
