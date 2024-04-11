@@ -21,5 +21,4 @@ let app;
 if (admin.apps.length === 0) {
   app = initializeApp(certification);
 }
-console.log(app);
 export const auth = getAuth(app);
